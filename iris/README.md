@@ -13,5 +13,5 @@ pip install -r requirements.txt
 ## Usage
 
 ```sh
-python velib_real_time_demo.py
+python iris_demo.py
 ```
