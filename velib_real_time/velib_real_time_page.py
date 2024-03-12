@@ -149,7 +149,7 @@ def compute_global_stats(dfg):
 cfg ={
     "opacity": 0.9,
     "radius": 80,
-    "disableAutoscale": False,
+    "disableAutoscale": True,
     "min": 0,
     "max": 1,
     "colorScale": "interpolateRdYlBu",
