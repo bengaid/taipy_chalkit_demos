@@ -1,9 +1,9 @@
 {
 	"meta": {
-		"version": "3.000.8843",
+		"version": "3.000.8837",
 		"fileFormatVersion": "0.3",
-		"date": "Tue Mar 19 2024 09:39:00 GMT+0100 (heure normale d’Europe centrale)",
-		"name": "velib_real_time_page",
+		"date": "Tue Mar 12 2024 13:52:09 GMT+0100 (heure normale d’Europe centrale)",
+		"name": "velib_real_time_page-recovery",
 		"description": "Velib bike sharing system in Paris live information",
 		"groupName": "",
 		"tags": [],
@@ -66,9 +66,9 @@
 		"openStreetMapsA": {
 			"layout": {
 				"top": "17.7333vh",
-				"left": "0.719895vw",
-				"height": "51.7333vh",
-				"width": "48.9529vw",
+				"left": "0.721008vw",
+				"height": "51.8667vh",
+				"width": "48.963vw",
 				"minHeight": "20px",
 				"minWidth": "20px",
 				"z-index": "1"
@@ -101,7 +101,7 @@
 				"defaultCenter": {
 					"latitude": 48.872063,
 					"longitude": 2.331773,
-					"zoom": 11
+					"zoom": 16
 				},
 				"offlineSupport": false,
 				"tileServer": "MapboxStreets",

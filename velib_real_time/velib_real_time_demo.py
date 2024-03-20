@@ -1,5 +1,5 @@
 from taipy.gui import Gui
-from .velib_real_time_page import page
+from velib_real_time_page import page
 
 gui = Gui()
 gui.add_page("velib-real-time", page)

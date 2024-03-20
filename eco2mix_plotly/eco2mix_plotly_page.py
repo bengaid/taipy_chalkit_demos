@@ -97,7 +97,5 @@ def on_change(state, var, val):
     elif var == 'bSampling':
         state.fig_data, state.fig_pie = update_exec(state.df, state.date, val)
 
-# Define xprjson file name
-xprjson_file_name = "eco2mix_plotly_page.xprjson"
-# Create a Page instance with the resource handler
-page = Page(PureHTMLResourceHandler())
+# Create a Chalk'it Page instance
+page = ChalkitPage("eco2mix_plotly_page.xprjson")

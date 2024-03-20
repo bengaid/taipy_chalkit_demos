@@ -17,7 +17,5 @@ tab2 = [["H1", "H2", "H3"],[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 def compute(state):
     state.res = state.a*state.b
 
-# Define xprjson file name
-xprjson_file_name = "basic_demo_page.xprjson"
-# Create a Page instance with the resource handler
-page = Page(PureHTMLResourceHandler())
+# Create a Designer Page instance
+page = ChalkitPage("basic_demo_page.xprjson")
