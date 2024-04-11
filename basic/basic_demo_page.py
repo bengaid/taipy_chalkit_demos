@@ -1,5 +1,4 @@
 from chlkt import *
-from taipy.gui.custom import Page
 
 
 a = 1
@@ -18,4 +17,4 @@ def compute(state):
     state.res = state.a*state.b
 
 # Create a Designer Page instance
-page = ChalkitPage("basic_demo_page.xprjson")
+page = ChalkitPage("basic_demo_page.xprjson", designer_mode=True)

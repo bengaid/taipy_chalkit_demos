@@ -1,5 +1,4 @@
 from chlkt import *
-from taipy.gui.custom import Page
 import pandas as pd
 import geopandas as gpd
 from shapely.geometry import Point
@@ -190,4 +189,4 @@ def on_change(state, var, val):
         state.echarts_option_json = generate_echarts_bar_graph(state.dfg, dockBar)
 
 # Create a Chalk'it Page instance
-page = ChalkitPage("velib_real_time_page.xprjson")
+page = ChalkitPage("velib_real_time_page.xprjson", designer_mode=True)

@@ -1,5 +1,4 @@
 from chlkt import *
-from taipy.gui.custom import Page
 import pandas as pd
 
 # Define URLs and dataset names
@@ -124,5 +123,5 @@ option_e = echarts_option(covid_filtered, selected_countries)
 
 
 # Create a Chalk'it Page instance
-page = ChalkitPage("covid_page.xprjson")
+page = ChalkitPage("covid_page.xprjson", designer_mode=True)
 
